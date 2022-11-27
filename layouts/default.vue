@@ -1,7 +1,8 @@
 <template>
   <div>
-    <molecule-navbar />
+    <molecule-navbar class="mb-6" />
     <slot />
+    <div class="pt-[1200px]" />
   </div>
 </template>
 

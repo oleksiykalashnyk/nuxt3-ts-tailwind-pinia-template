@@ -1,20 +1,14 @@
 <template>
-  <div class="nav">
-    <atoms-atom-back-button />
-    <router-link to="/" exact active-class="active">Home</router-link>
-    <router-link to="/about" active-class="active">About</router-link>
+  <div class="bg-green-100 sticky top-0 left-0 py-1">
+    <nav class="container mx-auto flex gap-[20px] justify-center">
+      <router-link to="/" exact active-class="text-green-500 font-bold">Home</router-link>
+      <router-link to="/about" active-class="text-green-500 font-bold">About</router-link>
+    </nav>
   </div>
 </template>
 
 <style scoped>
 a {
   text-decoration: none;
-}
-.nav {
-  display: flex;
-  gap: 20px;
-}
-.active {
-  text-decoration: underline;
 }
 </style>
