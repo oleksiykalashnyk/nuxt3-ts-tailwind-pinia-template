@@ -6,8 +6,8 @@
 
 <script setup lang="ts">
 import { onMounted } from '#imports'
-const counterStore = useCounterStore()
 
+const counterStore = useCounterStore()
 const count = computed(() => counterStore.getCount)
 
 onMounted(() => {

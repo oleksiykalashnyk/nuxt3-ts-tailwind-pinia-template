@@ -9,8 +9,12 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' },
   },
-  modules: ['@pinia/nuxt'],
+  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss'],
   imports: {
     dirs: ['stores'],
+  },
+  tailwindcss: {
+    // add '~tailwind.config` alias
+    exposeConfig: true,
   },
 })
