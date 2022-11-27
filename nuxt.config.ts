@@ -9,4 +9,8 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' },
   },
+  modules: ['@pinia/nuxt'],
+  imports: {
+    dirs: ['stores'],
+  },
 })
