@@ -7,12 +7,14 @@
 </template>
 
 <style scoped>
+a {
+  text-decoration: none;
+}
 .nav {
   display: flex;
   gap: 20px;
 }
 .active {
-  background: red;
-  color: #000;
+  text-decoration: underline;
 }
 </style>
