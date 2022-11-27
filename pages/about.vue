@@ -2,7 +2,7 @@
   <div>
     <h1 @click="increment">About page</h1>
     <h2>Count: {{ count }}</h2>
-    <button @click="increment">Increment</button>
+    <button @click="increment" class="rounded bg-green-300 text-white">Increment</button>
   </div>
 </template>
 
